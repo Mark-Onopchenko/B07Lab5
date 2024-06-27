@@ -1,4 +1,5 @@
-package lab4;
+package lab5;
+
 public class Circle {
     Point A;
     Point B;
@@ -14,5 +15,7 @@ public class Circle {
     public double area(){
         return Math.pow(A.distance(B),2) * Math.PI;
     }
+    
 
 }
+
